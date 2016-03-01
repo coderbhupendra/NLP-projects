@@ -11,9 +11,7 @@ other files are used for making training and test dataset , shuffling them , che
 data_rnn_classify.py is used to make a training and test data set for wrong correct(w/c) approach 
 lstm_model_check.py is used for checking the final result of prediction for w/c approach 
 
-For both languages  ngram_model is made inorder to learn the Emdedding Vector for words in dictionary , dictionary contain top 10,000 frequent words of corpus , for ngram_model i used a RNN neural network to  predict the n+1 th word given n previous words.And these embedding vectors will be used by rnn_encoder_decoder model. 
+For both languages  ngram_model is made inorder to learn the Embedding Vector for words in dictionary , dictionary contain top 10,000 frequent words of corpus , for ngram_model i used a RNN neural network to  predict the n+1 th word given n previous words.And these embedding vectors will be used by rnn_encoder_decoder model. 
 
-2)Similary language_translation_de does the samething for German dataset.
+2)Similarly language_translation_de does the samething for German dataset.
 3)language_translation is used to translate a English sentence to German , using above models only.
-
-
