@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+''' Reference code'''
 """
 Implements the RNN encoder-decoder framework from Cho et al.
 Notes :
