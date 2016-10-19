@@ -1,3 +1,4 @@
+'''data_rnn_classify.py to randomly shuffle the wrong sentences and correct sentences for classification problem'''
 import os
 import sys
 import gzip
