@@ -1,3 +1,4 @@
+'''To randomly shuffle the wrong sentences and correct sentences , that will be used to classying sentences'''
 import os
 import sys
 import gzip
