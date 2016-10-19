@@ -1,3 +1,4 @@
+'''not a part of model , just used for reference'''
 import cPickle
 import gzip
 import os
