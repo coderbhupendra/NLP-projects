@@ -1,4 +1,4 @@
-'''Build a tweet sentiment analyzer'''
+''' lstm model to check model by printing original(English) and translated sentences(German)'''
 from collections import OrderedDict
 import cPickle as pkl
 import sys
