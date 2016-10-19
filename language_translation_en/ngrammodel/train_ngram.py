@@ -1,3 +1,4 @@
+'''Train N-gram model and save word embedding for vocabulary'''
 import theano
 import numpy
 import os
