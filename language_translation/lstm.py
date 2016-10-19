@@ -1,3 +1,4 @@
+'''not a part of model , just used for reference'''
 '''Build a tweet sentiment analyzer'''
 from collections import OrderedDict
 import cPickle as pkl
