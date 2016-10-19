@@ -1,15 +1,5 @@
 #!/usr/bin/env python
-
-"""
-Implements the RNN encoder-decoder framework from Cho et al.
-Notes :
-  1. Bias parameters are excluded by choice
-  2. Implements mini-batch training
-  3. Training only updates parameters through averaged gradients once per batch
-  4. TODO: The maxout unit in the decoder does not work right, it has been replaced with a simple
-      non-linear function over a dot product with a parameter matrix : G
-"""
-
+'''RNN Enocoder Decoder model for encoding a sentence and decoding it into another language'''
 import sys
 import time
 import os
