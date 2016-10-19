@@ -1,4 +1,4 @@
-'''Build a tweet sentiment analyzer'''
+'''Not required for this experiment, just for reference'''
 from collections import OrderedDict
 import cPickle as pkl
 import sys
