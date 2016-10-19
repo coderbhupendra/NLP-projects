@@ -1,3 +1,4 @@
+'''check_data.py to check if the data prepared is correct or not'''
 import os
 import sys
 import gzip
