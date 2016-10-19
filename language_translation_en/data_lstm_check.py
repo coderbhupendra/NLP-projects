@@ -1,3 +1,4 @@
+'''To remove sentences which are too short and combine X and Y labels for lstm'''
 import os
 import sys
 import gzip
