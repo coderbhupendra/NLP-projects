@@ -1,3 +1,4 @@
+'''To calulate the closeness fo two word embedding using euclidean distnace''' 
 import numpy as np
 import cPickle as pickle
 #change the vocabs
