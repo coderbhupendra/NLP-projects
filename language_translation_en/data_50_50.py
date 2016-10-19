@@ -1,3 +1,4 @@
+''' TO prepare data set into halfs for training and testing'''
 import os
 import sys
 import gzip
