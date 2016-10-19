@@ -1,3 +1,4 @@
+'''To prepare data by sorting sentences according to no of words, it will improve the training time'''
 import cPickle as pickle
 
 with open("data/data_no.mdl", "rb") as model:
