@@ -1,3 +1,4 @@
+'''pFor preparing vocalbulary  of top 10,000 from prepared data set'''
 """f = open('europarl-v7.de-en.en', 'rU')
 c=0
 a=[]
