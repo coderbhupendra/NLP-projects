@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Wrapper script to train an RNN-encoder-decoder model for phrase translation probabilities
+RNN-encoder-decoder model used for testing learned model
 """
 
 import os
