@@ -1,3 +1,4 @@
+'''train_ngram.py to Train N-gram model and learn word embedding for vocabulary'''
 import theano
 import numpy
 import os
