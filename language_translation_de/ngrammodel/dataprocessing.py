@@ -1,3 +1,4 @@
+'''utility methoda for data processing'''
 import cPickle as pickle
 import pprint
 import itertools
