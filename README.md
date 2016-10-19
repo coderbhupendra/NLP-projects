@@ -1,7 +1,7 @@
-## Natural Language Processing related project done in IIT Madras. Programming language used: Python and theano framework
+## Natural Language Processing project done in IIT Madras using Theano Framework.
 
-language_translation contains files required for preparing data set , vocabulary and training model:
-===================================================================================================
+## language_translation contains files required for preparing data set , vocabulary and training model:
+   ===================================================================================================
 
 1. **check_data.py** to check if the data prepared is correct or not.
 
@@ -15,8 +15,8 @@ language_translation contains files required for preparing data set , vocabulary
 
 6. **lstm_model_check.py** lstm model to check model by printing original(English) and translated sentences(German).
 
-language_translation_de contains following files:
-=================================================
+## language_translation_de contains following files:
+   =================================================
 
 1. **data_no.py** To calulate what percentage for words are covered by Vocabulary.
 
@@ -36,8 +36,8 @@ language_translation_de contains following files:
 
 9. **phasepair.py** To prepare dataset pairwise for English and its corresponding German Sentence.
 
-language_translation_en contains following files: 
-=================================================
+## language_translation_en contains following files: 
+   =================================================
 
 1. **rnn_encoder_decoder.py** this contain the Rnn_encoder_decoder neural model to train the parallel corpus of English and German.
 
@@ -49,20 +49,20 @@ language_translation_en contains following files:
 
 ** Files with the same name in other folder have the same description.** 
 
-How to procede
-==============
+## How to procede
+   ==============
 Firstly, prepare datset for training and test, shuffling them.Then check if the dataset formed is correct or not and to see if model works correctly or not. 
 
-wrong-correct(w/c) Experiment
-=============================
+## wrong-correct(w/c) Experiment
+   =============================
 In this we make syntax of sentnces wrong by shuffling words. Then we try to train model to learn to differentiate between wrong sentence vs. correct sentences.
 
 First,run data_rnn_classify.py to make a training and test data set for wrong-correct(w/c) approach.
 
 Then run lstm_model_check.py to checking the final result of prediction for w/c approach.
 
-N-gram Experiment:
-=================
+## N-gram Experiment
+   =================
 In this we try to show how words with the same context meaning (like push and move) end up having similar word embedding.
 
 Run train_ngram.py to train N-gram model and learn word embedding for vocabulary.
@@ -73,4 +73,7 @@ For both languages one ngram_model is made inorder to learn the Emdedding Vector
 
 Similary language_translation_de does the samething for German dataset. 
 
-language_translation is used to translate a English sentence to German , using above models only.
+## Language Translation Experiment using Rnn Encoder Decoder 
+   =========================================================
+Prepare data set as done for N-gram model then run language_translation.py train a RNN model. Then run lstm_model_check.py to translate a English sentence to German.
+  
