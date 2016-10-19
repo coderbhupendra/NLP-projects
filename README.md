@@ -27,6 +27,8 @@ rnn_e_d_test_check.py RNN-encoder-decoder model used for testing learned model
 phasepair.py To prepare dataset pairwise for English and its corresponding German Sentence
 Other code files are used for making training and test dataset , shuffling them , checking is the dataset formed is correct or not and to see if model works correctly or not. data_rnn_classify.py is used to make a training and test data set for wrong correct(w/c) approach lstm_model_check.py is used for checking the final result of prediction for w/c approac
 
+ngram:
+train_ngram.py Train N-gram model and learn word embedding for vocabulary
 
 
 For both languages one ngram_model is made inorder to learn the Emdedding Vector for words in dictionary , dictionary contain top 10,000 frequent words of corpus , for ngram_model i used a RNN neural network to predict the n+1 th word given n previous words.And these embedding vectors will be used by rnn_encoder_decoder model.
