@@ -1,6 +1,4 @@
-## NLP-projects
-
-**Natural Language Processing related project done in IIT Madras. Programming language used: Python and theano framework**
+## Natural Language Processing related project done in IIT Madras. Programming language used: Python and theano framework
 
 language_translation contains files required for preparing data set , vocabulary and training model:
 ===================================================================================================
