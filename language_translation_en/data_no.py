@@ -1,3 +1,4 @@
+'''data_no.py To calulate what percentage for words are covered by Vocabulary '''
 import os
 import sys
 import gzip
