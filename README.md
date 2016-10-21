@@ -26,8 +26,8 @@ Similary language_translation_de does the samething for German dataset.
 
 ## Language Translation Experiment using Rnn Encoder Decoder 
 
-Prepare data set as done for N-gram model then run language_translation.py train a RNN model. Then run lstm_model_check.py to translate a English sentence to German.
-
+Prepare data set as done for N-gram model then run language_translation.py train a RNN model. Then run model_check.py to translate a English sentence to German.
+Reference Paper: Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation[https://arxiv.org/pdf/1406.1078v3.pdf]  
 
 ## language_translation contains following files required for preparing data set , vocabulary and training model:
   
